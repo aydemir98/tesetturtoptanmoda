@@ -3680,3 +3680,11 @@ ol {
 		font-size: 24px;
 	}
 }
+/* Product section responsive design for small screens */
+@media (max-width: 768px) {
+	.property__gallery .col-sm-6 {
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+  }
+  
